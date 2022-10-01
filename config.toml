@@ -1,0 +1,18 @@
+baseURL = 'https://photo.moquillon.fr/'
+copyright = 'Tous droits réservés'
+languageCode = 'fr-FR'
+defaultContentLanguage = 'fr'
+title = 'Points de Vue'
+theme = 'ananke'
+
+enableRobotsTXT = true
+disqusShortname = 'miguel-moquillon-photoblog'
+
+[sitemap]
+changefreq = 'monthly'
+priority = 0.5
+filename = 'sitemap.xml'
+
+[params]
+date_format = ':date_long'
+
