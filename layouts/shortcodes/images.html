@@ -1,0 +1,16 @@
+{{ with .Page.Resources.ByType "image" }}
+    {{ range . }}
+       {{ $desc := .Title }}
+
+        <a href="{{ .RelPermalink }}">
+
+        {{ with .Resize "600x" }}
+
+        <img src="{{ .RelPermalink }}" alt="{{ with .Exif }}{{ .Tags.ImageDescription | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
+
+        {{ end }}
+
+        </a>
+
+    {{ end }}
+{{ end }}
