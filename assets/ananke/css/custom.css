@@ -2,11 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-nav {
+/*nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-}
+}*/
 
 .site.cover, .cover {
     width: 100%;
@@ -32,4 +32,8 @@ nav {
 
 .site.cover .tc-l h1 {
     margin-top: auto;
+}
+
+.pswp {
+    --pswp-bg: #eee!important;
 }

@@ -1,0 +1,38 @@
+<div id="gallery" class="pswp-gallery">
+{{ with .Page.Resources.ByType "image" }}
+    {{ range . }}
+       {{ $desc := .Title }}
+
+        <a href="{{ .RelPermalink }}"
+           data-pswp-width="{{ .Width }}"
+           data-pswp-height="{{ .Height }}"
+           target="_blank">
+        {{ with .Resize "600x" }}
+
+        <img src="{{ .RelPermalink }}" alt="{{ with .Exif }}{{ .Tags.ImageDescription | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
+
+        {{ end }}
+
+        </a>
+
+    {{ end }}
+{{ end }}
+</div>
+
+<script type="module">
+
+    import PhotoSwipeLightbox from '{{ .Site.BaseURL }}js/photoswipe-lightbox.esm.js';
+
+    if (PhotoSwipeLightbox !== undefined && PhotoSwipeLightbox !== null) {
+    
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '#gallery',
+            children: 'a',
+            pswpModule: () => import('{{ .Site.BaseURL }}js/photoswipe.esm.js')
+        });
+        lightbox.init();
+
+    }
+
+</script>
+<link rel="stylesheet" href='{{ .Site.BaseURL }}css/photoswipe.css'>
