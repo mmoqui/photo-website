@@ -7,11 +7,9 @@ theme = 'ananke'
 
 [languages]
   [languages.en]
-    contentDir = 'content/en'
     copyright = 'Miguel Moquillon. All rights reserved'
-
+    
   [languages.fr]
-    contentDir = 'content/fr'
     copyright = 'Miguel Moquillon. Tous droits réservés'
 
 enableRobotsTXT = true
