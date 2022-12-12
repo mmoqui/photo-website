@@ -9,7 +9,7 @@ menu:
     weight: 3
 ---
 
-![](/images/me.jpg "")
+![](../../images/me.jpg "Miguel Moquillon")
 
 My name is Miguel Moquillon and I'm living, currently, near Grenoble.
 

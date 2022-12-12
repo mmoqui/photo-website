@@ -9,7 +9,7 @@ menu:
     weight: 3
 ---
 
-![](/images/me.jpg "")
+![](../images/me.jpg "Miguel Moquillon")
 
 Je m'appelle Miguel Moquillon et je vis, actuellement, du côté de Grenoble.
 

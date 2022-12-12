@@ -21,14 +21,14 @@
 
 <script type="module">
 
-    import PhotoSwipeLightbox from '{{ .Site.BaseURL }}js/photoswipe-lightbox.esm.js';
+    import PhotoSwipeLightbox from '{{ .Site.BaseURL }}js/photoswipe-lightbox.esm.min.js';
 
     if (PhotoSwipeLightbox !== undefined && PhotoSwipeLightbox !== null) {
     
         const lightbox = new PhotoSwipeLightbox({
             gallery: '#gallery',
             children: 'a',
-            pswpModule: () => import('{{ .Site.BaseURL }}js/photoswipe.esm.js')
+            pswpModule: () => import('{{ .Site.BaseURL }}js/photoswipe.esm.min.js')
         });
         lightbox.init();
 

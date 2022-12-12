@@ -9,4 +9,4 @@ menu:
     weight: 2
 ---
 
-{{< form-contact action="https://formspree.io/miguel.moquillon@gmail.com" >}}
+{{< form-contact action="hhttps://formspree.io/f/mdojqyrk" >}}
