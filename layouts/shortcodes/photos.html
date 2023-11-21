@@ -9,7 +9,7 @@
            target="_blank">
         {{ with .Resize "600x" }}
 
-        <img src="{{ .RelPermalink }}" alt="{{ with .Exif }}{{ .Tags.ImageDescription | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
+        <img src="{{ .RelPermalink }}" alt="{{ with .Exif }}{{ .Tags.UserComment | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
 
         {{ end }}
 
