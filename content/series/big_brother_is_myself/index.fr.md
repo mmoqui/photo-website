@@ -1,5 +1,6 @@
 ---
 title: Big Brother is myself
+date: 2022-11-22
 featured_image: 'series/big_brother_is_myself/Big Brother 8.jpg'
 ---
 
