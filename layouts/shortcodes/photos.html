@@ -9,7 +9,7 @@
            target="_blank">
         {{ with .Resize "600x" }}
 
-        <img src="{{ .RelPermalink }}" alt="{{ with .Exif }}{{ .Tags.UserComment | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
+        <img class="lazyload" data-src="{{ .RelPermalink }}" width="600px" alt="{{ with .Exif }}{{ .Tags.UserComment | default $desc }}{{ else }}{{ $desc }}{{ end }}"/>
 
         {{ end }}
 
@@ -19,7 +19,8 @@
 {{ end }}
 </div>
 
-<script type="module">
+<script src="{{ .Site.BaseURL }}js/lazysizes.min.js" async></script>
+<script type="module" async>
 
     import PhotoSwipeLightbox from '{{ .Site.BaseURL }}js/photoswipe-lightbox.esm.min.js';
 

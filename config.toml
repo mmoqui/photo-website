@@ -1,16 +1,21 @@
 baseURL = 'https://photo.moquillon.fr/'
 languageCode = 'fr-FR'
 defaultContentLanguage = 'fr'
-title = 'Miguel Moquillon'
-description = 'Photographe'
 theme = 'ananke'
+
 
 [languages]
   [languages.en]
+    title = 'Miguel Moquillon Photography'  
     copyright = 'Miguel Moquillon. All rights reserved'
+    [languages.en.params]
+      description = 'The photographic series of Miguel Moquillon'
     
   [languages.fr]
+    title = 'Miguel Moquillon Photographie'
     copyright = 'Miguel Moquillon. Tous droits réservés'
+    [languages.fr.params]
+      description = 'Les séries photographiques de Miguel Moquillon'
 
 enableRobotsTXT = true
 #disqusShortname = 'miguel-moquillon-photoblog'
@@ -23,6 +28,7 @@ filename = 'sitemap.xml'
 [params]
 custom_css = ['custom.css']
 date_format = ':date_long'
+site_title = 'Miguel Moquillon'
 
     
 

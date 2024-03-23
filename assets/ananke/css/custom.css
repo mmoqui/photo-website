@@ -8,6 +8,14 @@ html {
   top: 0;
 }*/
 
+img {
+    aspect-ratio: auto;
+}
+
+.img {
+    width: 320!important;
+} 
+
 .site.cover, .cover {
     width: 100%;
     height: 100%;
