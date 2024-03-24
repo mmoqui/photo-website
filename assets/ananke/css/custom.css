@@ -14,7 +14,7 @@ img {
 
 .img {
     width: 320!important;
-} 
+}
 
 .site.cover, .cover {
     width: 100%;
@@ -44,4 +44,10 @@ img {
 
 .pswp {
     --pswp-bg: #eee!important;
+    /*--pswp-bg: #303030!important;*/
+}
+
+.photo {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
