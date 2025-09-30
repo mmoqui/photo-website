@@ -7,7 +7,7 @@ summary: "Dans nos sociétés, nous nous confrontons aux regards des autres. Nou
 
 Dans nos sociétés, nous nous confrontons aux regards des autres. Nous ajustons nos comportements, notre apparence à ceux-ci. Le plus souvent inconsciement. Mais le pire regard est peut-être celui que nous posons sur nous même. Scrutateur, jugeur, critiqueur, il nous impose sa dictature. Big Brother ... c'est lui. I'm watching me...
 
-{{< photos >}}
+{{< photos column=3 >}}
 
 
 

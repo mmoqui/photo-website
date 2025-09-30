@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}" {{- with partialCached "functions/GetLanguageDirection" "GetLanguageDirection" }} dir="{{ . }}" {{- end }}>
+  {{ partial "head.html" . }}
+  
+  {{- $environment := hugo.Environment | default "production" -}}
+  <body id="site" class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}} {{ $environment }}">
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+  </body>
+</html>

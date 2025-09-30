@@ -1,2 +1,58 @@
+[more]
+other = "Plus"
+
+[allTitle]
+other = "Toutes les {{ .Title }}"
+
 [recentTitle]
 other = "{{ .Title }} récentes"
+
+[readMore]
+other = "lire plus"
+
+[by]
+other = "Par"
+
+[whatsInThis]
+other = "Ce qui est dans {{ .Type }}"
+
+[related]
+other = "Lié"
+
+[yourName]
+other = "Votre nom"
+
+[emailAddress]
+other = "Adresse e-mail"
+
+[message]
+other = "Message"
+
+[emailRequiredNote]
+other = "Une adresse e-mail est requise."
+
+[send]
+other = "Envoyer"
+
+[taxonomyPageList]
+other = "Ci-dessous se trouvent les pages utilisant le terme taxonomique “{{ .Title }}”"
+
+[readingTime]
+one = "Une minute de lecture"
+other = "{{ .Count }} minutes de lecture"
+
+[wordCount]
+one = "Un mot"
+other = "{{ .Count }} mots"
+
+[pageTitle]
+other = "{{ .Name }} page"
+
+[openInNewWindow]
+other = "Ouvrir dans une nouvelle fenêtre"
+
+[followOn]
+other = "suivez moi sur {{ . }}"
+
+[pageNotFound]
+other = "Ce n'est pas la page que vous recherchez"

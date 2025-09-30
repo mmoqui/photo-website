@@ -1,0 +1,36 @@
+baseURL = 'https://photo.moquillon.fr/'
+languageCode = 'fr-FR'
+defaultContentLanguage = 'fr'
+cleanDestinationDir = true
+disableKinds = ['taxonomy', 'term']
+#theme = 'ananke'
+
+[languages]
+  [languages.en]
+    title = 'Home'
+    copyright = 'Miguel Moquillon. All rights reserved'
+    [languages.en.params]
+      description = 'The photographic series of Miguel Moquillon'
+    
+  [languages.fr]
+    title = 'Accueil'
+    copyright = 'Miguel Moquillon. Tous droits réservés'
+    [languages.fr.params]
+      description = 'Les séries photographiques de Miguel Moquillon'
+
+enableRobotsTXT = true
+
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+keepWhitespace = true
+
+[sitemap]
+changefreq = 'monthly'
+priority = 0.5
+filename = 'sitemap.xml'
+
+

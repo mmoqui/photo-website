@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}" {{- with partialCached "functions/GetLanguageDirection" "GetLanguageDirection" }} dir="{{ . }}" {{- end }}>
+  {{ partial "head.html" . }}
+  
+  {{- $environment := hugo.Environment | default "production" -}}
+  <body id="page" class="ma0 avenir bg-near-white {{ $environment }}">
+    {{ block "header" . }}{{ partial "page-header.html" .}}{{ end }}
+    <main class="pb4 pb7-ns" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partialCached "page-footer.html" . }}{{ end }}
+  </body>
+</html>

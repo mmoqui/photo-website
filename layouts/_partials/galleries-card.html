@@ -1,0 +1,19 @@
+{{ $featured_image := partial "functions/GetFeaturedImage.html" . }}
+<div class="fl w-100 w-50-m w-third-ns">
+  {{ if $featured_image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  <div class="dib">
+    <a href="{{.RelPermalink}}" class="db center tc color-inherit link dim" title="{{ .Title }}">
+      <figure>
+        <img class="aspect-ratio--2x3 br3"
+             src="{{ $featured_image }}" alt="{{ .Title }}" />
+      </figure>
+      <div class="center w-100{{ if $featured_image }} w-60-ns{{ end }}">
+        <h2 class="f3 fw1 athelas ml0 mt0 lh-title lh-copy">
+            {{ .Title }}
+        </h2>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>

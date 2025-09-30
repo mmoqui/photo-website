@@ -1,0 +1,43 @@
+{{- $config := site.Params.social -}}
+{{- $networks := $config.networks -}}
+
+<div class="socials">
+  {{- range $networks -}}
+    {{- $network := index $config . -}}
+    {{- $rel := $network.rel | default "" -}}
+    {{- $label := $network.label | default "" -}}
+
+    {{- $link := "" -}}
+    {{- with $network.profile -}}
+      {{- $link = (printf . $network.username) -}}
+    {{- end -}}
+    {{- with $network.profilelink -}}
+      {{- $link = . -}}
+    {{- end -}}
+
+    {{- $languageDirection := cond (eq $.Site.Language.LanguageDirection "rtl") "ml1" "mr1" -}}
+    <a href="{{ $link }}" target="_blank" rel="noopener{{- with $rel }} {{ . -}}{{- end -}}"
+        class="social-link link-transition {{ . }} link dib z-999 pt3 pt0-l {{ $languageDirection }}"
+        title='{{ i18n "followOn" $label }} - {{ i18n "openInNewWindow" }}'
+        aria-label='{{ i18n "followOn" $label }} - {{ i18n "openInNewWindow" }}'>
+      {{/* @todo add the following lines to a partial, reused in social/share.html */}}
+      {{- with $network.icon -}}
+        {{- $icon := resources.Get (printf "socials/%s.svg" .) -}}
+        {{- with $icon -}}
+          <span class="icon">
+            {{ .Content | safeHTML }}
+          </span>
+        {{- end -}}
+      {{- else -}}
+        {{- $icon := resources.Get (printf "socials/%s.svg" .) -}}
+        {{- with $icon -}}
+          <span class="icon">
+            {{ .Content | safeHTML }}
+          </span>
+        {{- else -}}
+          {{- $label -}}
+        {{- end -}}
+      {{- end -}}
+    </a>
+  {{- end -}}
+</div>

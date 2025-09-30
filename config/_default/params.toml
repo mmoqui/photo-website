@@ -1,0 +1,101 @@
+author = 'Miguel Moquillon'
+show_author = false
+custom_css = ['custom.css']
+date_format = ':date_long'
+show_date = true
+#site_title = 'Miguel Moquillon'
+#site_logo = '../../images/me.jpg'
+
+[social]
+networks = ['foto', 'flickr', 'mastodon']
+
+[social.mastodon]
+label = 'Mastodon'
+color = "#6364FF"
+icon = 'mastodon'
+profilelink = 'https://mastodon.top/@MigMoq'
+username = '@MigMoq'
+
+[social.foto]
+label = "Foto"
+color = "#df2624"
+icon = "facebook"
+profile = "https://the.fotoapp.co/%s"
+username = 'mimok'
+
+[social.flickr]
+label = "Flickr"
+color = "#fcfcfc"
+icon = "flickr"
+profilelink = "https://www.flickr.com/people/156084668@N02"
+
+[social.500px]
+label = "500px"
+color = "#fcfcfc"
+icon = "500px"
+profile = "https://500px.com/p/%s?view=photos"
+
+[social.bluesky]
+label = "Bluesky"
+color = "#1185fe"
+profile = "https://bsky.app/profile/%s"
+icon = "bluesky"
+link = "https://bsky.app/intent/compose"
+
+[social.email]
+label = "Email"
+icon = "envelope"
+link = "mailto:"
+
+[social.rss]
+label = "RSS"
+color = "#ff6f1a"
+icon = "rss"
+
+[social.facebook]
+label = "Facebook"
+color = "#3b5998"
+profile = "https://www.facebook.com/%s"
+icon = "facebook"
+link = "https://facebook.com/sharer/sharer.php"
+
+[social.instagram]
+label = "Instagram"
+color = "#e1306c"
+profile = "https://www.instagram.com/%s/"
+icon = "instagram"
+
+[social.linkedin]
+label = "LinkedIn"
+color = "#0077b5"
+profile = "http://linkedin.com/in/%s"
+icon = "linkedin"
+link = "https://www.linkedin.com/shareArticle"
+
+[social.slack]
+label = "Slack"
+color = "#E01E5A"
+icon = "slack"
+
+[social.discord]
+label = "Discord"
+color = "#747df8"
+icon = "discord"
+
+[social.tiktok]
+label = "TikTok"
+color = "#fe2c55"
+profile = "https://www.tiktok.com/@%s"
+icon = "tiktok"
+
+[social.youtube]
+label = "YouTube"
+color = "#cd201f"
+profile = "https://www.youtube.com/@%s"
+icon = "youtube"
+
+[social.vimeo]
+label = "Vimeo"
+color = "#16d5ff"
+profile = "https://www.viemo.com/@%s"
+icon = "vimeo"

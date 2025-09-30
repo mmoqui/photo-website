@@ -6,13 +6,11 @@ description:
 type: page
 menu:
   main:
-    weight: 3
+    weight: 4
 ---
 
 ![](../../images/me.jpg "Miguel Moquillon")
 
-My name is Miguel Moquillon and I'm living, currently, near Grenoble.
+"Photography is a walk alone in the universe…The conventional world veils your vision, for photography you have to find a way to remove the veil." – Sergio Larrain
 
-Although I have an affinity with writing, it is by the image I have chosen to express myself. In my childhood, I liked to draw. Currently, I have chosen the photography.
-
-Photographic books and exhibitions opened my eyes to a whole world of possiblities. I understood the power the images and the series can have. That a photograph only comes to live when it is printed on a physical medium, by its very texture.
+It is with this quote from Sergio Larrain I approach photography. Through it, I learn to see not only what is surrounding me, but also to discover myself and reach out to others. If taking a picture means giving importance to the subject, no matter how mundane it may be, it also means revealing a litte bit of ourselves through the choice of viewpoint, framing, exposure, and post-processing. Joel Meyerowitz said “the camera is a license to see.” and so it is by looking through the viewfinder that I try to reveal, the instant of a photograph, my vision.
