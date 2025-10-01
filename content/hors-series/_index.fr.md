@@ -12,3 +12,4 @@ params:
 
 Cette page présente diverses collections de photographies, sur un thème donné, et qui ne se rattachent à aucune série. 
 Il n'y a a donc pas de séquencement bien définis et de réelle cohésion entre les photographies d'une même collection.
+Aussi, une photographie peut être présente dans une collection, puis disparaître, estimant qu'elle n'y a plus sa place.

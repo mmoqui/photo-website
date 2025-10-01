@@ -12,3 +12,4 @@ params:
 
 In this page are presented various collections of photographs in a given theme that don't belong to any series.
 There is therefore no clearly defined sequence or real cohesion between the photographs in the same collection.
+So, a photograph can be in a collection, and later removed because I estimated it doesn't belong anymore in it.
