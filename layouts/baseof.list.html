@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.Language.LanguageCode }}" {{- with partialCached "functions/GetLanguageDirection" "GetLanguageDirection" }} dir="{{ . }}" {{- end }}>
+<html lang="{{ site.Language.Locale }}" {{- with partialCached "functions/GetLanguageDirection" "GetLanguageDirection" }} dir="{{ . }}" {{- end }}>
   {{ partial "head.html" . }}
   
   {{- $environment := hugo.Environment | default "production" -}}

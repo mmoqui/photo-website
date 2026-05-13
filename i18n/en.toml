@@ -56,3 +56,6 @@ other = "follow on {{ . }}"
 
 [pageNotFound]
 other = "This is not the page you were looking for"
+
+[PublishedOn]
+other = "Published on"

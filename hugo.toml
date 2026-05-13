@@ -1,5 +1,5 @@
 baseURL = 'https://photo.moquillon.fr/'
-languageCode = 'fr-FR'
+locale = 'fr-FR'
 defaultContentLanguage = 'fr'
 cleanDestinationDir = true
 disableKinds = ['taxonomy', 'term']
